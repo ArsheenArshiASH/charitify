@@ -86,6 +86,7 @@ width:64px;
   top:1rem;
   right:1rem;
 }
+
 progress{
 width: 100%;
 height: 1.3rem;
@@ -93,6 +94,37 @@ position: absolute;
 top:-0.3rem;
 left:0;
 accent-color: var(--clr);
+}
+progress.bar-progress{
+  position: relative;
+  top:0.5rem;
+}
+progress.bar-progress::before{
+  content:"35";
+  display: grid;
+ place-items: center;
+ font-size: 1.3rem;
+ z-index: 10;
+ position: absolute;
+ top:-0.5rem;
+ left:35%;
+ transform: translateX(-50%);
+}
+progress.bar-progress::after{
+  content:"";
+  width:50px;
+  height:50px;
+  /* display: grid;
+  place-items: center; */
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: var(--clr);
+ position: absolute;
+ top:-1rem;
+ left:35%;
+ z-index:5;
+ isolation: isolate;
+ transform: translateX(-50%);
 }
 .card-content::before{
  content:"25%";
