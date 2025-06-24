@@ -179,18 +179,53 @@ progress.bar-progress::after{
   background-position:center;
   background-size:cover;
 }
-/*  */
 
-    /* background-color: #f8b864;
-    content: '';
-    height: 800px;
-    width: 800px;
+/* voluntter */
+.volunteer-heading::before{
+    content: "";
     position: absolute;
-    top: -400px;
-    left: -350px;
-    border-radius: 100%;
-    opacity: 0.2;
-    z-index: -1; */
+    height: 5px;
+    background-color: #f8b864;
+    /* border-top: 5px solid #f8b864; */
+    width: 50px;
+    top:110%;
+    left:50%;
+    transform: translateX(-50%);   
+}
+
+.volunteer-pic img{
+  max-width: 100%;
+  display: block;
+  max-height:250px;
+}
+.volunteer-pic{
+  place-items: center;
+}
+.volunteer-list{
+ list-style-position: outside;
+ list-style-type:none ;
+ margin-left: -1rem;
+}
+.volunteer-list li::marker{
+  content:"\f00c";
+  font-weight: 700;
+  color: var(--clr);
+ font-family:"font awesome 5 free"; 
+}
+.volunteer-list >*{
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+}
+.text-col {
+  display: flex;
+  flex-direction: column;
+}
+.text-col button{
+  margin-top: auto;
+  width: 9rem;
+  padding: 0.8rem;
+  margin-bottom:2rem;
+}
 
 @media (max-width:1000px){
   .navbar-brand img{
@@ -234,6 +269,11 @@ progress.bar-progress::after{
       translate:0px -5px
     }
   }
+
+  .volunteer-para{
+    width:50%;
+    margin: 0 auto;
+  }
 }
 /* header ends here */
 @media (min-width:1200px){
@@ -266,6 +306,7 @@ progress.bar-progress::after{
   gap:1rem;
   flex-wrap: wrap;
 }
+
 }
 
 
