@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Charity- website</title>
+    <title>Charitify Clone</title>
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -66,7 +66,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-lg-auto ">
+          <ul class="navbar-nav ms-lg-auto">
             <li class="nav-item dropdown drop-li">
               <a
                 class="nav-link dropdown-toggle active"
@@ -129,9 +129,9 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-          <button type="button" class="btn btn-warning text-light fw-bold ">
-              Donate Now
-            </button>
+          <button type="button" class="btn btn-warning text-light fw-bold">
+            Donate Now
+          </button>
         </div>
       </div>
     </nav>
@@ -146,10 +146,10 @@
               class="d-block w-100"
               alt="hero-slider"
             />
-            <div class="carousel-caption">
-              <p class="carousel-sm-text">Join Us Today</p>
-              <h1 class="carousel-heading">Better Life for People</h1>
-              <p class="carousel-text">
+            <div class="carousel-caption first-carousel">
+              <p class="carousel-sm-text p-top">Join Us Today</p>
+              <h1 class="carousel-heading"> <span>Better</span> <span>Life </span> <span>for</span> <span>People</span> </h1>
+              <p class="carousel-text pt-2 p-bottom">
                 Help today because tomorrow you may be the one who needs
                 helping! Forget what you can get and see what you can give.
               </p>
@@ -175,9 +175,9 @@
             />
             <div class="carousel-caption">
               <h1 class="carousel-heading px-4">
-                Together we can make a Difference
+                <span>Together we</span> <span>can make</span> <span>a Difference</span>
               </h1>
-              <p class="carousel-text">
+              <p class="carousel-text p-bottom">
                 Help today because tomorrow you may be the one who needs
                 helping! Forget what you can get and see what you can give.
               </p>
@@ -202,9 +202,9 @@
               alt="hero-slider"
             />
             <div class="carousel-caption">
-              <p class="carousel-sm-text">Join Us Today</p>
-              <h1 class="carousel-heading">Give a little. Change a lot.</h1>
-              <p class="carousel-text">
+              <p class="carousel-sm-text p-top">Join Us Today</p>
+              <h1 class="carousel-heading carousel-3rd-heading"><span>Give</span> <span> a </span> <span>little.</span> <span>Change </span> <span>a lot.</span></h1>
+              <p class="carousel-text p-bottom">
                 Help today because tomorrow you may be the one who needs
                 helping! Forget what you can get and see what you can give.
               </p>
@@ -244,6 +244,7 @@
       </div>
     </section>
     <!-- carousel ends / hero sec ends -->
+     <!-- fund sec -->
     <section class="fund container-xxl">
       <div class="row g-0 fund-row">
         <div class="col-md">
@@ -301,7 +302,7 @@
         </div>
       </div>
     </section>
-
+<!-- cause sec starts here -->
     <section class="py-5 mt-5 causes">
       <div class="container-xxl">
         <h2 class="text-center cause-heading fw-bolder">Recent Causes</h2>
@@ -310,15 +311,24 @@
         </p>
 
         <div class="row mt-4 cause-row">
-
           <div class="col-md">
             <div class="card overflow-hidden">
-              <img src="./assets/causes-1.jpg"  class="card-img-top cause-img" alt="" >
-                       <button type="button" class="btn btn-overlay btn-warning text-light">  Donate Now </button>
-                      
-                       
-              <div class="card-body pt-5 px-lg-5 position-relative card-content">
-                 <progress value="25" max="100"></progress>
+              <img
+                src="./assets/causes-1.jpg"
+                class="card-img-top cause-img"
+                alt=""
+              />
+              <button
+                type="button"
+                class="btn btn-overlay btn-warning text-light"
+              >
+                Donate Now
+              </button>
+
+              <div
+                class="card-body pt-5 px-lg-5 position-relative card-content"
+              >
+                <progress value="25" max="100"></progress>
                 <h4 class="card-title fw-bolder">
                   First charity activity of this summer.
                 </h4>
@@ -326,18 +336,31 @@
                   Help today because tomorrow you may be the one who needs more
                   helping!
                 </p>
-                <div class="card-flex"><p><i class="fa-solid fa-chart-simple"></i> Goal: $45000 </p> <p><i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p></div>
+                <div class="card-flex">
+                  <p><i class="fa-solid fa-chart-simple"></i> Goal: $45000</p>
+                  <p><i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p>
+                </div>
                 <a href="#" class="card-link">Read More</a>
               </div>
             </div>
           </div>
 
           <div class="col-md">
-
-            <div class="card overflow-hidden ">
-               <img src="./assets/causes-2.jpg"  class="card-img-top cause-img" alt="">
-               <button type="button" class="btn btn-overlay btn-warning text-light">  Donate Now </button>
-              <div class="card-body pt-5 px-lg-5 position-relative card-content card-content-2">
+            <div class="card overflow-hidden">
+              <img
+                src="./assets/causes-2.jpg"
+                class="card-img-top cause-img"
+                alt=""
+              />
+              <button
+                type="button"
+                class="btn btn-overlay btn-warning text-light"
+              >
+                Donate Now
+              </button>
+              <div
+                class="card-body pt-5 px-lg-5 position-relative card-content card-content-2"
+              >
                 <progress value="45" max="100"></progress>
                 <h4 class="card-title fw-bolder">
                   First charity activity of this summer.
@@ -346,18 +369,30 @@
                   Help today because tomorrow you may be the one who needs more
                   helping!
                 </p>
-                <div class="card-flex"><p><i class="fa-solid fa-chart-simple"></i> Goal: $45000 </p> <p><i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p></div>
+                <div class="card-flex">
+                  <p><i class="fa-solid fa-chart-simple"></i> Goal: $45000</p>
+                  <p><i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p>
+                </div>
                 <a href="#" class="card-link">Read More</a>
               </div>
             </div>
-
           </div>
           <div class="col-md">
-
             <div class="card overflow-hidden">
-                <img src="./assets/causes-3.jpg"  class="card-img-top cause-img" alt="">
-                  <button type="button" class="btn btn-overlay btn-warning text-light"> Donate Now </button>
-              <div class="card-body pt-5 px-lg-5 position-relative card-content card-content-3">
+              <img
+                src="./assets/causes-3.jpg"
+                class="card-img-top cause-img"
+                alt=""
+              />
+              <button
+                type="button"
+                class="btn btn-overlay btn-warning text-light"
+              >
+                Donate Now
+              </button>
+              <div
+                class="card-body pt-5 px-lg-5 position-relative card-content card-content-3"
+              >
                 <progress value="75" max="100"></progress>
                 <h4 class="card-title fw-bolder">
                   First charity activity of this summer.
@@ -366,75 +401,83 @@
                   Help today because tomorrow you may be the one who needs more
                   helping!
                 </p>
-                <div class="card-flex"><p><i class="fa-solid fa-chart-simple"></i> Goal: $45000 </p> <p><i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p></div>
+                <div class="card-flex">
+                  <p><i class="fa-solid fa-chart-simple"></i> Goal: $45000</p>
+                  <p><i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p>
+                </div>
                 <a href="#" class="card-link">Read More</a>
               </div>
             </div>
-
           </div>
+        </div>
       </div>
-    </div>
     </section>
 
     <section class="history position-relative">
       <div class="container-xxl my-5">
-         <div class="row">
-          
-            <div class="col-md">
-
+        <div class="row">
+          <div class="col-md">
             <div class="card text-center py-3" id="profile-border">
-                <div class=" rounded-circle round-profie"><img src="./assets/profile.jpg" class="card-img-top  rounded-circle " id="history-img"></div>
-                 
+              <div class="rounded-circle round-profie">
+                <img
+                  src="./assets/profile.jpg"
+                  class="card-img-top rounded-circle"
+                  id="history-img"
+                />
+              </div>
+
               <div class="card-body">
-                <h4 class="card-title fw-bolder">
-                Jonathan Smith
-                </h4>
+                <h4 class="card-title fw-bolder">Jonathan Smith</h4>
                 <small>CEO & Founder of Charitify</small>
                 <p class="card-text pt-2 px-lg-5">
-                  The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
+                  The secret to happiness lies in helping others. Never
+                  underestimate the difference YOU can make in the lives of the
+                  poor, the abused and the helpless.
                 </p>
-                 <img src="./assets/sign.png" alt="" >
+                <img src="./assets/sign.png" alt="" />
               </div>
             </div>
-
           </div>
 
-               <div class="col-md">
+          <div class="col-md">
+            <div class="card">
+              <img
+                src="./assets/history.jpg"
+                class="card-img-top cause-img"
+                alt=""
+              />
 
-            <div class="card ">
-                <img src="./assets/history.jpg"  class="card-img-top cause-img" alt="">
-  
               <div class="card-body">
-                <h4 class="card-title fw-bolder">
-                   Our History
-                </h4>
+                <h4 class="card-title fw-bolder">Our History</h4>
                 <p class="card-text pt-2">
-                         The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.
+                  The secret to happiness lies in helping others. Never
+                  underestimate the difference YOU can make in the lives of the
+                  poor.
                 </p>
 
                 <button class="btn btn-warning text-light">Read More</button>
               </div>
             </div>
-
           </div>
 
-
-               <div class="col-md">
-
-            <div class="card ">
-                <img src="./assets/mission.jpg"  class="card-img-top cause-img" alt="">
-              <div class="card-body ">
-                <h4 class="card-title fw-bolder">
-                  Our Mission
-                </h4>
+          <div class="col-md">
+            <div class="card">
+              <img
+                src="./assets/mission.jpg"
+                class="card-img-top cause-img"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title fw-bolder">Our Mission</h4>
                 <p class="card-text pt-2">
-                 The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor.
+                  The secret to happiness lies in helping others. Never
+                  underestimate the difference YOU can make in the lives of the
+                  poor.
                 </p>
 
                 <button class="btn btn-warning text-light">Read More</button>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -443,17 +486,38 @@
     <section class="project bg-secondary">
       <div class="container-xxl py-3 py-md-5 text-light">
         <div class="row py-5 gap-3">
-          <div class="col-md ">
-             <button class="btn btn-sm btn-warning text-light fs-small fw-bold">Featured Campaigns</button>
-             <h2 class="pt-2">Featured project to built a School.</h2>
-             <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
-             <progress value="35" max="100" class="bar-progress"></progress>
-           <div class="card-flex fs-5 fw-bold mt-3"><p><i class="fa-solid fa-chart-simple"></i> Goal: $45000 </p> <p>
-            <i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p></div>
-           <button class="btn btn-warning text-light fs-small fw-bold px-3 py-2">Donate Now</button>
+          <div class="col-md">
+            <button class="btn btn-sm btn-warning text-light fs-small fw-bold">
+              Featured Campaigns
+            </button>
+            <h2 class="pt-2">Featured project to built a School.</h2>
+            <p>
+              The secret to happiness lies in helping others. Never
+              underestimate the difference YOU can make in the lives of the
+              poor, the abused and the helpless.
+            </p>
+            <progress value="35" max="100" class="bar-progress"></progress>
+            <div class="card-flex fs-5 fw-bold mt-3">
+              <p><i class="fa-solid fa-chart-simple"></i> Goal: $45000</p>
+              <p><i class="fa-regular fa-thumbs-up"></i> Raised: $5000</p>
+            </div>
+            <button
+              class="btn btn-warning text-light fs-small fw-bold px-3 py-2"
+            >
+              Donate Now
+            </button>
           </div>
           <div class="col-md">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/VkBnNxneA_A?si=c9hSijqRXk0GlmUm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/VkBnNxneA_A?si=c9hSijqRXk0GlmUm"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
@@ -461,34 +525,43 @@
 
     <section class="volunteers py-2 py-md-5">
       <div class="container-xxl">
-        <h2 class="fw-bold text-center volunteer-heading position-relative">Meet Out Volunteeers</h2>
-        <p class="volunteer-para text-center pt-2 ">help today because tomorrow you may be the one who needs more helping!</p>
+        <h2 class="fw-bold text-center volunteer-heading position-relative">
+          Meet Out Volunteeers
+        </h2>
+        <p class="volunteer-para text-center pt-2 center-para" >
+          help today because tomorrow you may be the one who needs more helping!
+        </p>
 
         <div class="row pt-2 pt-md-4">
-
           <div class="col-md volunteer-pic">
-             <div class="row mb-2 ">
-                 <div class="col">
-                    <img src="./assets/profile.jpg" alt="">
-                 </div>
-                 <div class="col">
-                   <img src="./assets/team-2.jpg" alt="">
-                 </div>
-             </div>
-             <div class="row">
-                  <div class="col">
-                    <img src="./assets/team-3.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="./assets/team-4.jpg" alt="">
-                  </div>
-             </div>
+            <div class="row mb-2">
+              <div class="col">
+                <img src="./assets/profile.jpg" alt="" />
+              </div>
+              <div class="col">
+                <img src="./assets/team-2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="./assets/team-3.jpg" alt="" />
+              </div>
+              <div class="col">
+                <img src="./assets/team-4.jpg" alt="" />
+              </div>
+            </div>
           </div>
 
           <div class="col-md text-col">
             <h3 class="fw-bold fs-5 mt-3">Become a Volunteer?</h3>
-            <h4 class="fw-bold fs-5">Join your hand with us for a better life and beautiful future.</h4>
-            <p class="py-2">The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+            <h4 class="fw-bold fs-5">
+              Join your hand with us for a better life and beautiful future.
+            </h4>
+            <p class="py-2">
+              The secret to happiness lies in helping others. Never
+              underestimate the difference YOU can make in the lives of the
+              poor, the abused and the helpless.
+            </p>
             <ul class="volunteer-list">
               <li>We are friendly to each other.</li>
               <li>If you join with us,We will give you free training.</li>
@@ -497,13 +570,532 @@
               <li>Joining is tottaly free. We dont need any money from you.</li>
             </ul>
 
-            <button class="btn btn-warning text-light fw-bold">Join with Us</button>
+            <button class="btn btn-warning text-light fw-bold">
+              Join with Us
+            </button>
           </div>
-
         </div>
-
       </div>
     </section>
+
+    <section class="banner">
+      <div class="container-xxl">
+        <div class="row values">
+          <div class="col-md value-1 px-5">
+            <div class="value-icon">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <span>85389</span>
+            <p class="fw-bold">Money Donated</p>
+          </div>
+          <div class="col-md value-2">
+            <div class="value-icon">
+              <i class="fa-regular fa-face-smile"></i>
+            </div>
+            <span>10693</span>
+            <p class="fw-bold">Volunteer Around The World</p>
+          </div>
+          <div class="col-md value-3">
+            <div class="value-icon"><i class="fa-solid fa-users"></i></div>
+            <span>50177</span>
+            <p class="fw-bold">People Impacted</p>
+          </div>
+          <div class="col-md value-4">
+            <div class="value-icon"><i class="fa-solid fa-message"></i></div>
+            <span>669</span>
+            <p class="fw-bold">Positive Feedbacks</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- section starts here -->
+    <section class="events py-5">
+      <div class="container-xxl">
+        <h2 class="text-center fw-bold position-relative event-border">  Upcoming Events  </h2>
+        <p class="text-center pt-3 center-para"> Help today because tomorrow you may be the one who needs more helping! </p>
+
+        <!-- carousel events starts -->
+  <div id="events-carousel" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+       
+       <div class="carousel-card-wrapper d-flex flex-wrap justify-content-center">
+             <div class="card" style="max-width: 550px;">
+               <div class="row card-row g-0">
+                   <div class="col-sm">
+                     <div class="side-img">
+                        <img src="./assets/events-2.jpg" alt="">
+                     </div>
+                   </div>
+
+                   <div class="col-sm bg-light px-3 pt-3">
+                     <div class="side-content">
+                       <h3 class="fs-5 fw-bold lh-base">Nepal Earthquake clean Water Initiative.</h3>
+                       <div class="side-icon"><i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p></div>
+                       <div class="side-icon"> <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p></div>
+                       <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                       <button class="btn btn-warning text-light fw-bold">Read More</button>
+                     </div>
+                  </div>
+              </div>
+             </div>
+              
+             <div class="card" style="max-width: 550px;">
+             <div class="row card-row g-0">
+              <div class="col-sm">
+                <div class="side-img">
+                  <img src="./assets/events-3.jpg" alt="" />
+                </div>
+             </div>
+
+              <div class="col-sm bg-light px-3 pt-3">
+                <div class="side-content">
+                  <h3 class="fw-bold fs-5 lh-base"> Let's talk about the poor Children </h3>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p>
+                  </div>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p>
+                  </div>
+                  <p>Help today because tomorrow you may be the one who needs more helping! </p>
+                  <button class="btn btn-warning text-light fw-bold">Read More</button>
+                </div>
+              </div>
+          </div>
+      </div>     
+    </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+         <div class="carousel-card-wrapper d-flex flex-wrap justify-content-center">    
+            <div class="card" style="max-width:550px;">
+             <div class="row card-row g-0">
+              <div class="col-sm">
+                <div class="side-img">
+                  <img src="./assets/events-1.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="col-sm bg-light px-3 pt-3">
+                <div class="side-content">
+                  <h3 class="fw-bold fs-5 lh-base">
+                    Insure clean water to everyone in Africa.
+                  </h3>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-calendar"></i>
+                    <p>Started on: 12:00 PM.</p>
+                  </div>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Grand Mahal, Dubai 2100.</p>
+                  </div>
+                  <p>
+                    Help today because tomorrow you may be the one who needs
+                    more helping!
+                  </p>
+                  <button class="btn btn-warning text-light fw-bold">
+                    Read More
+                  </button>
+                </div>
+              </div>
+             </div>
+          </div>
+
+             <div class="card" style="max-width: 550px;">
+               <div class="row card-row g-0">
+                   <div class="col-sm">
+                     <div class="side-img">
+                        <img src="./assets/events-2.jpg" alt="">
+                     </div>
+                   </div>
+
+                   <div class="col-sm bg-light px-3 pt-3">
+                     <div class="side-content">
+                       <h3 class="fs-5 fw-bold lh-base">Nepal Earthquake clean Water Initiative.</h3>
+                       <div class="side-icon"><i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p></div>
+                       <div class="side-icon"> <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p></div>
+                       <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                       <button class="btn btn-warning text-light fw-bold">Read More</button>
+                     </div>
+                  </div>
+              </div>
+             </div>
+         </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+      <div class="carousel-card-wrapper d-flex flex-wrap justify-content-center">    
+                <div class="card" style="max-width: 550px;">
+             <div class="row card-row g-0">
+              <div class="col-sm">
+                <div class="side-img">
+                  <img src="./assets/events-3.jpg" alt=""  />
+                </div>
+             </div>
+
+              <div class="col-sm bg-light px-3 pt-3">
+                <div class="side-content">
+                  <h3 class="fw-bold fs-5 lh-base"> Let's talk about the poor Children </h3>
+                  <div class="side-icon ">
+                    <i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p>
+                  </div>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p>
+                  </div>
+                  <p>Help today because tomorrow you may be the one who needs more helping! </p>
+                  <button class="btn btn-warning text-light fw-bold">Read More</button>
+                </div>
+              </div>
+          </div>
+      </div>   
+
+             <div class="card" style="max-width: 550px;">
+               <div class="row card-row g-0">
+                   <div class="col-sm">
+                     <div class="side-img">
+                        <img src="./assets/events-2.jpg" alt="">
+                     </div>
+                   </div>
+
+                   <div class="col-sm bg-light px-3 pt-3">
+                     <div class="side-content">
+                       <h3 class="fs-5 fw-bold lh-base">Nepal Earthquake clean Water Initiative.</h3>
+                       <div class="side-icon"><i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p></div>
+                       <div class="side-icon"> <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p></div>
+                       <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                       <button class="btn btn-warning text-light fw-bold">Read More</button>
+                     </div>
+                  </div>
+              </div>
+             </div>
+         </div>
+      
+    </div>
+  </div>
+  <button class="carousel-control-prev events-control-prev" type="button" data-bs-target="#events-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon events-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next events-control-next" type="button" data-bs-target="#events-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon events-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <!-- carousel events  ends-->
+      
+        </div>
+    </section>
+    <!-- events section ends here -->
+
+    <section class="saying py-5">
+      <div class="container-xxl pb-2 pb-sm-5 pt-sm-2">
+          <h2 class="text-center fw-bold position-relative event-border"> What People Say </h2>
+         <p class="text-center pt-3 center-para"> Help today because tomorrow you may be the one who needs more helping! </p> 
+
+         <!-- carosel saying -->
+ <div id="carouselExampleAutoplaying" class="carousel slide pt-sm-3" data-bs-ride="carousel">
+
+  
+
+  <div class="carousel-inner">
+
+<div class="carousel-item active">    
+
+ <div class="row g-3">
+<div class="col">
+    <div class="card py-3 px-2" style="background-color:#fafafa">
+      <div class="card-body">
+        <p class="card-text"> The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless..</p>
+        <div class="flex-profile d-flex align-items-center gap-2">
+          <div class="circle-profile">
+          <img src="./assets/profile.jpg" alt="">
+         </div>
+         <div class="name-position">
+           <h4 class="fs-5">Jonathan Smith</h4>
+           <small>Marketer</small>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="col">
+    <div class="card py-3 px-2" style="background-color:#fafafa">
+      <div class="card-body">
+        <p class="card-text"> The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless..</p>
+        <div class="flex-profile d-flex align-items-center gap-2">
+          <div class="circle-profile">
+          <img src="./assets/team-2.jpg" alt="">
+         </div>
+         <div class="name-position">
+           <h4 class="fs-5">Angelina Rose</h4>
+           <small>Designer</small>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card py-3 px-2" style="background-color:#fafafa">
+      <div class="card-body">
+        <p class="card-text"> The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless..</p>
+        <div class="flex-profile d-flex align-items-center gap-2">
+          <div class="circle-profile">
+          <img src="./assets/team-3.jpg" alt="">
+         </div>
+         <div class="name-position">
+           <h4 class="fs-5">Taylor Swift</h4>
+           <small>Developer</small>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+                  
+ <div class="row g-3">
+
+   <div class="col">
+    <div class="card py-3 px-2" style="background-color:#fafafa">
+      <div class="card-body">
+        <p class="card-text"> The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless..</p>
+        <div class="flex-profile d-flex align-items-center gap-2">
+          <div class="circle-profile">
+          <img src="./assets/team-3.jpg" alt="">
+         </div>
+         <div class="name-position">
+           <h4 class="fs-5">Taylor Swift</h4>
+           <small>Developer</small>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="col">
+    <div class="card py-3 px-2" style="background-color:#fafafa">
+      <div class="card-body">
+        <p class="card-text"> The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless..</p>
+        <div class="flex-profile d-flex align-items-center gap-2">
+          <div class="circle-profile">
+          <img src="./assets/profile.jpg" alt="">
+         </div>
+         <div class="name-position">
+           <h4 class="fs-5">Jonathan Smith</h4>
+           <small>Marketer</small>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="col">
+    <div class="card py-3 px-2" style="background-color:#fafafa">
+      <div class="card-body">
+        <p class="card-text"> The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless..</p>
+        <div class="flex-profile d-flex align-items-center gap-2">
+          <div class="circle-profile">
+          <img src="./assets/team-2.jpg" alt="">
+         </div>
+         <div class="name-position">
+           <h4 class="fs-5">Angelina Rose</h4>
+           <small>Designer</small>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+   <div class="carousel-indicators saying-indicators" style="bottom: -3.5em;">
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="height:12px ;width:12px;border-radius: 50%; background-color: orange;"></button>
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2" style="height:12px ;width:12px;border-radius: 50%; background-color: orange;"></button>
+   </div>
+</div>
+<!-- carousel saying ends -->
+    </div> <!-- container-closed--> 
+
+  </section>
+  <!-- saying sec ends here -->
+
+  <section class="stories py-5">
+        <div class="container-xxl">
+            <h2 class="text-center fw-bold position-relative event-border"> Recent Stories</h2>
+            <p class="text-center pt-3 center-para"> Help today because tomorrow you may be the one who needs more helping! </p> 
+            <!-- cards -->
+             
+        <div class="row mt-4 cause-row mx-sm-5 g-3">
+          <div class="col-md">
+            <div class="card overflow-hidden" style="min-width: 250px">
+              <img src="./assets/home-blog-1.jpg" alt="" class="w-100 d-block">
+
+              <div class="card-body pt-3 px-2 px-lg-4 shadow-card">
+                 <div class="time-card d-flex gap-2 align-items-center py-1" style="color:grey">
+                  <i class="fa-solid fa-clock"></i> <span> January 01.2021</span>
+                </div>
+                <h4 class="card-title fw-bolder fs-6 ">
+                 The History of Donation Told
+                </h4>
+                <p class="card-text pt-2">
+                The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
+                </p>
+               
+                <a href="#" class="card-link">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card overflow-hidden" style="min-width: 250px;">
+            <img src="./assets/home-blog-2.jpg" alt="" class="w-100 d-block">
+            
+            
+              <div class="card-body pt-3 px-2 px-lg-4 shadow-card " >
+                 <div class="time-card d-flex gap-2 align-items-center py-1" style="color:grey">
+                  <i class="fa-solid fa-clock"></i> <span> January 01.2021</span>
+                </div>
+                <h4 class="card-title fw-bolder fs-6 ">
+                  Help the Comunity
+                </h4>
+                <p class="card-text pt-2">
+                  The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless
+                </p>
+             
+                <a href="#" class="card-link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card overflow-hidden" style="min-width: 250px;">
+               <img src="./assets/home-blog-3.jpg" alt="" class="w-100 d-block">
+              
+              <div  class="card-body pt-3 px-2 px-lg-4 shadow-card"  >
+                <div class="time-card d-flex gap-2 align-items-center py-1" style="color:grey">
+                  <i class="fa-solid fa-clock"></i> <span> January 01.2021</span>
+                </div>
+                <h4 class="card-title fw-bolder fs-6">
+                  Charity Ever Rule the World?
+                </h4>
+                <p class="card-text pt-2">
+                 The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
+                </p>
+    
+                <a href="#" class="card-link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div> <!--container closing div-->
+  </section>
+<!-- stories ends here -->
+  
+<section class="sponsers py-3 py-sm-5">
+<div class="container-xxl px-2 px-lg-5">
+  <div id="sponser-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active"  data-bs-interval="1000">
+     <div class="row g-3 text-center">
+      <div class="col-sm">
+        <img src="./assets/sponsor-1.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-2.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-3.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-4.png" alt="">
+      </div>
+     </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="3000">
+      <div class="row gap-3 text-center">
+      <div class="col-sm">
+        <img src="./assets/sponsor-5.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-6.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-7.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-8.png" alt="">
+      </div>
+     </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="6000">
+        <div class="row gap-3 text-center">
+      <div class="col-sm">
+        <img src="./assets/sponsor-1.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-2.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-3.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="./assets/sponsor-4.png" alt="">
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<footer class="py-5 px-3">
+  <div class="container-xxl">
+    <div class="row g-5">
+      <div class="col-md">
+         <img src="./assets/logo-light.png" alt="">
+         <p class="py-3">The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor</p>
+         <div class="social-footer d-flex gap-3" style="color: var(--clr);" >
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+      <div class="col-md">
+         <h4 style="color:var(--shadow-clr)">Recent Campaigns</h4>
+         <ul class="footer-link">
+         <li class="pt-3"><a href="#">First charity activity of this summer. -1 Year Ago</a></li>
+         <li class="pt-3" ><a href="#">Big charity: build school for poor children. -2 Year Ago</a></li>
+         <li class="pt-3"><a href="#">Big charity: build school for poor children. -2 Year Ago</a></li>
+         <li class="pt-3"><a href="#">Clean-water system for rural poor. -2 Year Ago</a></li>
+         <li class="pt-3"><a href="#">Nepal earthqueak donation campaigns. -3 Year Ago</a></li>
+         </ul>
+      </div>
+      <div class="col-md">
+             <h4 style="color:var(--shadow-clr)">Charitify Location</h4>
+             <div class="emmai pt-3"><i class="fa-solid fa-envelope" style="color: var(--clr);"></i> &nbsp;Info@YourDomain.com</div>
+             <div class="footer-no pt-3"><i class="fa-solid fa-mobile-screen-button" style="color: var(--clr);"></i> &nbsp; +(333) 052 39876</div>
+             <div class="live pt-3"> <i class="fa-solid fa-globe" style="color: var(--clr);"></i>&nbsp; Www.YourWebsite.com</div>
+             <div class="location pt-3"> <i class="fa-solid fa-location-dot" style="color: var(--clr);"></i>&nbsp; 60 Grand Avenue. Central New Road 0708, USA</div>
+      </div>
+    </div>
+    <hr class="mt-5">
+    <div class="rights d-flex justify-content-between flex-wrap pt-3" style="color:var(--shadow-clr);font-size: 0.9rem;">
+      <p>© 2021 Charitify Powered by DynamicLayers</p>
+      <div class="d-flex gap-3">
+        <p>Orders</p>
+        <p>Terms</p>
+        <p>Report Problem</p>
+      </div>
+    </div>   
+  </div>
+</footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
@@ -512,3 +1104,7 @@
     ></script>
   </body>
 </html>
+      
+
+
+         
