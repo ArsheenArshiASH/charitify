@@ -411,8 +411,14 @@ footer i:hover{
 /* banner */
 .banner{
   padding-block: 8rem!important;}
-  
+  /* contact page  */
+    .contact-form-sec .row{
+    position: relative;
+    bottom:10rem;
   }
+  }
+
+
 @media (min-width:768px){
   .dropdown-toggle::after {
    content: none;  }
@@ -529,6 +535,13 @@ footer i:hover{
     width:35%;
     margin-inline: auto;
   }
+/* about page dicover sec */
+  .dicover-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
 }
 @media (max-width:850px){
   .carousel-caption  h1{
@@ -575,5 +588,40 @@ footer i:hover{
  }
   
 
+ /* about page */
+.pages-hero{
+  position: relative;
+}
+.pages-hero::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(./abot.jpeg);
+  background-position: top center;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+.discover-heading{
+  line-height: 1.1;
+  font-weight: 700;
+  font-size: clamp(1.3rem , 2vw + 1rem , 3rem);
+}
+/* events page */
+.join-us{
+  background-image:url(./assets/events-page-slide.jpg);
+  background-position: center;
+  background-size: cover;
 
-
+}
+.join-us h2{
+  font-size: clamp(1.3rem, 4vw + 1rem , 3rem);
+}
+/* contact page */
+.map img{
+  width:100%;
+  object-fit: cover;
+  object-position: top;
+  max-height: 400px;
+  filter: brightness(50%);
+}

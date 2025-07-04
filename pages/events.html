@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charitify Events</title>
+      <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+     <!-- ad section -->
+      <div class="ad" style="background-color: var(--clr); padding-block: 0.7rem">
+      <div
+        class="flex-ad container-xxl d-flex justify-content-between align-items-center"
+      >
+        <div
+          class="contact d-flex align-items-center gap-3 text-light flex-wrap"
+        >
+          <div class="email-box d-flex align-items-center">
+            <i class="fa-solid fa-envelope pe-2"></i
+            ><span>Info@YourDomain.com</span>
+          </div>
+          <div class="number-box d-flex align-items-center">
+            <i class="fa-solid fa-mobile-screen"></i
+            ><span>+(333) 052 39876</span>
+          </div>
+        </div>
+        <div class="social-icons text-light d-flex gap-3">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-google"></i>
+        </div>
+      </div>
+    </div>
+     <!-- ad section ends -->
+      <!-- header nav -->
+     <nav class="navbar navbar-expand-lg bg-body-light sticky-top">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="#"
+          ><img src="../assets/logo.png" alt="" width="180px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item dropdown drop-li">
+              <a
+                class="nav-link dropdown-toggle"
+                aria-current="page"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Home</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../index.html">Home Default</a></li>
+                <li><a class="dropdown-item" href="../index.html">Home Modern</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./causes.html">Causes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./events.html">Events</a>
+            </li>
+            <li class="nav-item dropdown drop-li">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                <li><a class="dropdown-item" href="#">Volunteers</a></li>
+                <li><a class="dropdown-item" href="#">404 Not Found</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown drop-li">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Blog Right Sidebar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Blog Single</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-warning text-light fw-bold">
+            Donate Now
+          </button>
+        </div>
+      </div>
+    </nav>
+      <!-- header nav ends  -->
+       <!-- events hero -->
+    <section class="pages-hero text-light py-5">
+        <div class="container-xxl py-5">
+            <h2 class="fs-1 fw-bold">Upcoming Events</h2>
+            <p>Help today because tomorrow you may be the one who needs more helping!</p>
+             <a href="../index.html" style="color:inherit;font-size:1.2rem;text-decoration: none;">Home</a> / <a href="#" style="color:var(--clr);font-size:1.2rem;text-decoration: none;">Events</a>
+        </div>
+    </section>
+    <!-- events-hero ends -->
+
+    <section class="py-5">
+      <div class="container-xxl py-2">
+                <!-- carousel events starts -->
+  <div id="events-carousel" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+       
+       <div class="carousel-card-wrapper d-flex flex-wrap justify-content-center">
+             <div class="card" style="max-width: 550px;">
+               <div class="row card-row g-0">
+                   <div class="col-sm">
+                     <div class="side-img">
+                        <img src="../assets/events-2.jpg" alt="">
+                     </div>
+                   </div>
+
+                   <div class="col-sm bg-light px-3 pt-3">
+                     <div class="side-content">
+                       <h3 class="fs-5 fw-bold lh-base">Nepal Earthquake clean Water Initiative.</h3>
+                       <div class="side-icon"><i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p></div>
+                       <div class="side-icon"> <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p></div>
+                       <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                       <button class="btn btn-warning text-light fw-bold">Read More</button>
+                     </div>
+                  </div>
+              </div>
+             </div>
+              
+             <div class="card" style="max-width: 550px;">
+             <div class="row card-row g-0">
+              <div class="col-sm">
+                <div class="side-img">
+                  <img src="../assets/events-3.jpg" alt="" />
+                </div>
+             </div>
+
+              <div class="col-sm bg-light px-3 pt-3">
+                <div class="side-content">
+                  <h3 class="fw-bold fs-5 lh-base"> Let's talk about the poor Children </h3>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p>
+                  </div>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p>
+                  </div>
+                  <p>Help today because tomorrow you may be the one who needs more helping! </p>
+                  <button class="btn btn-warning text-light fw-bold">Read More</button>
+                </div>
+              </div>
+          </div>
+      </div>     
+    </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+         <div class="carousel-card-wrapper d-flex flex-wrap justify-content-center">    
+            <div class="card" style="max-width:550px;">
+             <div class="row card-row g-0">
+              <div class="col-sm">
+                <div class="side-img">
+                  <img src="../assets/events-1.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="col-sm bg-light px-3 pt-3">
+                <div class="side-content">
+                  <h3 class="fw-bold fs-5 lh-base">
+                    Insure clean water to everyone in Africa.
+                  </h3>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-calendar"></i>
+                    <p>Started on: 12:00 PM.</p>
+                  </div>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Grand Mahal, Dubai 2100.</p>
+                  </div>
+                  <p>
+                    Help today because tomorrow you may be the one who needs
+                    more helping!
+                  </p>
+                  <button class="btn btn-warning text-light fw-bold">
+                    Read More
+                  </button>
+                </div>
+              </div>
+             </div>
+          </div>
+
+             <div class="card" style="max-width: 550px;">
+               <div class="row card-row g-0">
+                   <div class="col-sm">
+                     <div class="side-img">
+                        <img src="../assets/events-2.jpg" alt="">
+                     </div>
+                   </div>
+
+                   <div class="col-sm bg-light px-3 pt-3">
+                     <div class="side-content">
+                       <h3 class="fs-5 fw-bold lh-base">Nepal Earthquake clean Water Initiative.</h3>
+                       <div class="side-icon"><i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p></div>
+                       <div class="side-icon"> <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p></div>
+                       <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                       <button class="btn btn-warning text-light fw-bold">Read More</button>
+                     </div>
+                  </div>
+              </div>
+             </div>
+         </div>
+
+    </div>
+
+    <div class="carousel-item">
+
+      <div class="carousel-card-wrapper d-flex flex-wrap justify-content-center">    
+                <div class="card" style="max-width: 550px;">
+             <div class="row card-row g-0">
+              <div class="col-sm">
+                <div class="side-img">
+                  <img src="../assets/events-3.jpg" alt=""  />
+                </div>
+             </div>
+
+              <div class="col-sm bg-light px-3 pt-3">
+                <div class="side-content">
+                  <h3 class="fw-bold fs-5 lh-base"> Let's talk about the poor Children </h3>
+                  <div class="side-icon ">
+                    <i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p>
+                  </div>
+                  <div class="side-icon">
+                    <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p>
+                  </div>
+                  <p>Help today because tomorrow you may be the one who needs more helping! </p>
+                  <button class="btn btn-warning text-light fw-bold">Read More</button>
+                </div>
+              </div>
+          </div>
+      </div>   
+
+             <div class="card" style="max-width: 550px;">
+               <div class="row card-row g-0">
+                   <div class="col-sm">
+                     <div class="side-img">
+                        <img src="../assets/events-2.jpg" alt="">
+                     </div>
+                   </div>
+
+                   <div class="col-sm bg-light px-3 pt-3">
+                     <div class="side-content">
+                       <h3 class="fs-5 fw-bold lh-base">Nepal Earthquake clean Water Initiative.</h3>
+                       <div class="side-icon"><i class="fa-solid fa-calendar"></i><p>Started on: 12:00 PM.</p></div>
+                       <div class="side-icon"> <i class="fa-solid fa-location-dot"></i><p>Grand Mahal, Dubai 2100.</p></div>
+                       <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                       <button class="btn btn-warning text-light fw-bold">Read More</button>
+                     </div>
+                  </div>
+              </div>
+             </div>
+         </div>
+      
+    </div>
+  </div>
+  <button class="carousel-control-prev events-control-prev" type="button" data-bs-target="#events-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon events-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next events-control-next" type="button" data-bs-target="#events-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon events-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <!-- carousel events  ends-->
+      </div>
+    </section>
+    <!-- events ends -->
+
+    <section class="join-us py-5 text-light">
+      <div class="container-xxl py-0 py-md-5 d-flex justify-content-between align-items-center flex-wrap">
+          <div class="join-us-content">
+            <h2 >Ready to Join With Us?</h2>
+            <p>The secret to happiness lies in helping others. Never underestimate the difference the abused and the helpless.</p>
+          </div>
+         <button class="btn btn-warning text-light fw-bold"> Contact With Us</button>
+      </div>
+    </section>
+    <!-- join us ends -->
+
+     <!-- stories -->
+   <section class="stories py-5">
+        <div class="container-xxl">
+            <h2 class="text-center fw-bold position-relative event-border"> Recent Stories</h2>
+            <p class="text-center pt-3 center-para"> Help today because tomorrow you may be the one who needs more helping! </p> 
+            <!-- cards -->
+             
+        <div class="row mt-4 cause-row mx-sm-5 g-3">
+          <div class="col-md">
+            <div class="card overflow-hidden" style="min-width: 250px">
+              <img src="../assets/home-blog-1.jpg" alt="" class="w-100 d-block">
+
+              <div class="card-body pt-3 px-2 px-lg-4 shadow-card">
+                 <div class="time-card d-flex gap-2 align-items-center py-1" style="color:grey">
+                  <i class="fa-solid fa-clock"></i> <span> January 01.2021</span>
+                </div>
+                <h4 class="card-title fw-bolder fs-6 ">
+                 The History of Donation Told
+                </h4>
+                <p class="card-text pt-2">
+                The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
+                </p>
+               
+                <a href="#" class="card-link">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card overflow-hidden" style="min-width: 250px;">
+            <img src="../assets/home-blog-2.jpg" alt="" class="w-100 d-block">
+            
+              <div class="card-body pt-3 px-2 px-lg-4 shadow-card " >
+                 <div class="time-card d-flex gap-2 align-items-center py-1" style="color:grey">
+                  <i class="fa-solid fa-clock"></i> <span> January 01.2021</span>
+                </div>
+                <h4 class="card-title fw-bolder fs-6 ">
+                  Help the Comunity
+                </h4>
+                <p class="card-text pt-2">
+                  The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless
+                </p>
+             
+                <a href="#" class="card-link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card overflow-hidden" style="min-width: 250px;">
+               <img src="../assets/home-blog-3.jpg" alt="" class="w-100 d-block">
+              
+              <div  class="card-body pt-3 px-2 px-lg-4 shadow-card"  >
+                <div class="time-card d-flex gap-2 align-items-center py-1" style="color:grey">
+                  <i class="fa-solid fa-clock"></i> <span> January 01.2021</span>
+                </div>
+                <h4 class="card-title fw-bolder fs-6">
+                  Charity Ever Rule the World?
+                </h4>
+                <p class="card-text pt-2">
+                 The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
+                </p>
+    
+                <a href="#" class="card-link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div> <!--container closing div-->
+  </section>
+<!-- stories ends here -->
+  
+<!-- sponser -->
+<section class="sponsers py-3 py-sm-5">
+<div class="container-xxl px-2 px-lg-5">
+  <div id="sponser-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active"  data-bs-interval="5000">
+     <div class="row g-3 text-center">
+      <div class="col-sm">
+        <img src="../assets/sponsor-1.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-2.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-3.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-4.png" alt="">
+      </div>
+     </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="5000">
+      <div class="row gap-3 text-center">
+      <div class="col-sm">
+        <img src="../assets/sponsor-5.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-6.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-7.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-8.png" alt="">
+      </div>
+     </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="5000">
+        <div class="row gap-3 text-center">
+      <div class="col-sm">
+        <img src="../assets/sponsor-1.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-2.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-3.png" alt="">
+      </div>
+      <div class="col-sm">
+        <img src="../assets/sponsor-4.png" alt="">
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- sponser ends -->
+
+<footer class="py-5 px-3">
+  <div class="container-xxl">
+    <div class="row g-5">
+      <div class="col-md">
+         <img src="../assets/logo-light.png" alt="">
+         <p class="py-3">The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor</p>
+         <div class="social-footer d-flex gap-3" style="color: var(--clr);" >
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+      <div class="col-md">
+         <h4 style="color:var(--shadow-clr)">Recent Campaigns</h4>
+         <ul class="footer-link">
+         <li class="pt-3"><a href="#">First charity activity of this summer. -1 Year Ago</a></li>
+         <li class="pt-3" ><a href="#">Big charity: build school for poor children. -2 Year Ago</a></li>
+         <li class="pt-3"><a href="#">Big charity: build school for poor children. -2 Year Ago</a></li>
+         <li class="pt-3"><a href="#">Clean-water system for rural poor. -2 Year Ago</a></li>
+         <li class="pt-3"><a href="#">Nepal earthqueak donation campaigns. -3 Year Ago</a></li>
+         </ul>
+      </div>
+      <div class="col-md">
+             <h4 style="color:var(--shadow-clr)">Charitify Location</h4>
+             <div class="emmai pt-3"><i class="fa-solid fa-envelope" style="color: var(--clr);"></i> &nbsp;Info@YourDomain.com</div>
+             <div class="footer-no pt-3"><i class="fa-solid fa-mobile-screen-button" style="color: var(--clr);"></i> &nbsp; +(333) 052 39876</div>
+             <div class="live pt-3"> <i class="fa-solid fa-globe" style="color: var(--clr);"></i>&nbsp; Www.YourWebsite.com</div>
+             <div class="location pt-3"> <i class="fa-solid fa-location-dot" style="color: var(--clr);"></i>&nbsp; 60 Grand Avenue. Central New Road 0708, USA</div>
+      </div>
+    </div>
+    <hr class="mt-5">
+    <div class="rights d-flex justify-content-between flex-wrap pt-3" style="color:var(--shadow-clr);font-size: 0.9rem;">
+      <p>© 2021 Charitify Powered by DynamicLayers</p>
+      <div class="d-flex gap-3">
+        <p>Orders</p>
+        <p>Terms</p>
+        <p>Report Problem</p>
+      </div>
+    </div>   
+  </div>
+</footer>
+<!-- footer ends -->
+
+         <!--js cdn  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous" ></script>
+</body>
+</html>
