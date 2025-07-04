@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Charitify</title>
-
-      <!-- font awesome -->
+    <title>Volunteer Charitify</title>
+     <!-- font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -24,7 +23,7 @@
     <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    <!-- ad section -->
+        <!-- ad section -->
       <div class="ad" style="background-color: var(--clr); padding-block: 0.7rem">
       <div
         class="flex-ad container-xxl d-flex justify-content-between align-items-center"
@@ -86,7 +85,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
+              <a class="nav-link " href="./about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./causes.html">Causes</a>
@@ -104,8 +103,8 @@
                 >Pages</a
               >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./gallery.html">Gallery</a></li>
-                <li><a class="dropdown-item" href="./volunteer.html">Volunteers</a></li>
+                <li><a class="dropdown-item " href="./gallery.html">Gallery</a></li>
+                <li><a class="dropdown-item active" href="#">Volunteers</a></li>
                 <li><a class="dropdown-item" href="./not-found.html">404 Not Found</a></li>
               </ul>
             </li>
@@ -129,7 +128,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
+              <a class="nav-link " href="./contact.html">Contact</a>
             </li>
           </ul>
           <button type="button" class="btn btn-warning text-light fw-bold">
@@ -139,89 +138,107 @@
       </div>
     </nav>
       <!-- header nav ends  -->
+       <!--volunteer hero -->
     <section class="pages-hero text-light py-5">
         <div class="container-xxl py-5">
-            <h2 class="fs-1 fw-bold">About Us</h2>
+            <h2 class="fs-1 fw-bold">Our Volunteers</h2>
             <p>Help today because tomorrow you may be the one who needs more helping!</p>
-             <a href="../index.html" style="color:inherit;font-size:1.2rem;text-decoration: none;">Home</a> / <a href="#" style="color:var(--clr);font-size:1.2rem;text-decoration: none;">About Us</a>
+             <a href="../index.html" style="color:inherit;font-size:1.2rem;text-decoration: none;">Home</a> / <a href="#" style="color:var(--clr);font-size:1.2rem;text-decoration: none;">Volunteers</a>
         </div>
+        <!-- volunteer ends here -->
     </section>
-    <!-- about-hero ends -->
-    
-    <!-- flex section -->
-     <section class="dicover py-5">
-       <div class="container-xxl">
-         <div class="row g-4 ">
-          <div class="col-md"> <img src="../assets/history.jpg" alt="" class="discover-pic w-100 d-block"> </div>
-          <div class="col-md">  
-            <div class="dicover-content" >
-            <h2 class="discover-heading">You are definitely intrigued to discover who we are.</h2>
-            <p class="mt-2">The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless</p>
-            <button class="btn btn-warning text-light fw-bold " style="max-width: 10rem;">More About US</button>
-           </div>
-         </div>
-         </div>
-       </div>
-     </section>
 
-     <!-- volunteer -->
-    <section class="volunteers py-2 py-md-5">
-      <div class="container-xxl">
-        <h2 class="fw-bold text-center volunteer-heading position-relative">
-          Meet Out Volunteeers
-        </h2>
-        <p class="volunteer-para text-center pt-2 center-para" >
-          help today because tomorrow you may be the one who needs more helping!
-        </p>
+    <section class="history position-relative">
+      <div class="container-xxl my-5">
+        <div class="row">
+          <div class="col-md">
+            <div class="card text-center py-3" id="profile-border">
+              <div class="rounded-circle round-profie">
+                <img
+                  src="../assets/profile.jpg"
+                  class="card-img-top rounded-circle"
+                  id="history-img"
+                />
+              </div>
 
-        <div class="row pt-2 pt-md-4">
-          <div class="col-md volunteer-pic">
-            <div class="row mb-2">
-              <div class="col">
-                <img src="../assets/profile.jpg" alt="" />
-              </div>
-              <div class="col">
-              <img src="../assets/team-2.jpg" alt="" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-               <img src="../assets/team-3.jpg" alt="" /> 
-              </div>
-              <div class="col">
-                <img src="../assets/team-4.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title fw-bolder">Jonathan Smith</h4>
+                <small>CEO & Founder of Charitify</small>
+                <p class="card-text pt-2 px-lg-5">
+                  The secret to happiness lies in helping others. Never
+                  underestimate the difference YOU can make in the lives of the
+                  poor, the abused and the helpless.
+                </p>
+                <img src="../assets/sign.png" alt="" />
               </div>
             </div>
           </div>
 
-          <div class="col-md text-col">
-            <h3 class="fw-bold fs-5 mt-3">Become a Volunteer?</h3>
-            <h4 class="fw-bold fs-5">
-              Join your hand with us for a better life and beautiful future.
-            </h4>
-            <p class="py-2">
-              The secret to happiness lies in helping others. Never
-              underestimate the difference YOU can make in the lives of the
-              poor, the abused and the helpless.
-            </p>
-            <ul class="volunteer-list">
-              <li>We are friendly to each other.</li>
-              <li>If you join with us,We will give you free training.</li>
-              <li>Its an opportunity to help poor children.</li>
-              <li>No goal requirements.</li>
-              <li>Joining is tottaly free. We dont need any money from you.</li>
-            </ul>
+          <div class="col-md">
+            <div class="card">
+              <img
+                src="../assets/history.jpg"
+                class="card-img-top cause-img"
+                alt=""
+              />
 
-            <button class="btn btn-warning text-light fw-bold">
-              Join with Us
-            </button>
+              <div class="card-body">
+                <h4 class="card-title fw-bolder">Our History</h4>
+                <p class="card-text pt-2">
+                  The secret to happiness lies in helping others. Never
+                  underestimate the difference YOU can make in the lives of the
+                  poor.
+                </p>
+
+                <button class="btn btn-warning text-light">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <img
+                src="../assets/mission.jpg"
+                class="card-img-top cause-img"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title fw-bolder">Our Mission</h4>
+                <p class="card-text pt-2">
+                  The secret to happiness lies in helping others. Never
+                  underestimate the difference YOU can make in the lives of the
+                  poor.
+                </p>
+
+                <button class="btn btn-warning text-light">Read More</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-<!-- volunteer section ends here -->
 
-<!-- banner -->
+    <section class="volunteer-profile my-5 px-2 px-sm-0 ">
+       <div class="container-xxl">
+        <div class="row pt-2 g-3 ">
+              <div class="col-sm">
+                <img src="../assets/profile.jpg" alt="" class="d-block w-100" />
+              </div>
+              <div class="col-sm">
+                <img src="../assets/team-2.jpg" alt="" class="d-block w-100" />
+              </div>
+    
+            
+              <div class="col-sm">
+                <img src="../assets/team-3.jpg" alt="" class="d-block w-100"/>
+              </div>
+              <div class="col-sm">
+                <img src="../assets/team-4.jpg" alt="" class="d-block w-100" />
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- banner -->
     <section class="banner">
       <div class="container-xxl">
         <div class="row values">
@@ -358,8 +375,9 @@
 </footer>
 <!-- footer  ends here -->
 
-    <!--js cdn  -->
-    <script
+  <!--js cdn  -->
+
+      <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous" ></script>

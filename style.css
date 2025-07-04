@@ -625,3 +625,45 @@ footer i:hover{
   max-height: 400px;
   filter: brightness(50%);
 }
+/* gallery */
+.img-gallery .card-overlay{
+  position: relative;
+  isolation: isolate;
+}
+.img-gallery .card-overlay:hover .overlay{
+  opacity: 1;
+}
+.card-overlay .overlay{
+  position: absolute;
+  inset:0;
+  background-color: rgba(0, 0, 0 , 0.5);
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+.overlay-icon{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--clr);
+  color:white;
+  display: grid;
+  place-items: center;
+}
+/* not found 404! */
+.not-found{
+   background-color:var(--bg-secondary);
+}
+.not-found .container-xxl{
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.not-found h1{
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: clamp(1.5rem , 7vw + 1rem , 8rem);
+}
