@@ -667,3 +667,17 @@ footer i:hover{
   line-height: 1.1;
   font-size: clamp(1.5rem , 7vw + 1rem , 8rem);
 }
+/* blog left */
+.tags-flex{
+  display: flex;
+  gap:1rem;
+  flex-wrap: wrap;
+}
+.tags-flex .btn{
+  background-color: var(--shadow-clr);
+  padding: 0.6rem 1.1rem;
+  transition: box-shadow 150ms ease-in-out;
+}
+.tags-flex .btn:hover{
+  box-shadow: 2px 4px 4px rgb(209, 206, 205);
+}
